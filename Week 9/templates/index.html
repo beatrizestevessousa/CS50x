@@ -1,0 +1,42 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Symbol</th>
+            <th scope="col">Name</th>
+            <th scope="col">Shares</th>
+            <th scope="col">Price</th>
+            <th scope="col">Total value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for row in transactions %}
+                <tr>
+                    <td>{{ row.symbol }}</td>
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.total_shares|usd }}</td>
+                    <td>{{ row.price|usd }}</td>
+                    <td>{{ (row.price * row.total_shares)|usd }}</td>
+                </tr>
+            {% endfor %}
+          </tr>
+          <tr>
+            <td colspan="4" align="right">Cash</td>
+            <td>{{ cash|usd }}</td>
+          </tr>
+          <tr>
+            <td colspan="4" align="right">Total value</td>
+            <td>{{ total_value|usd }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+{% endblock %}
