@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia Night</title>
+
+        <script src="answers.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_400/ncom/en_US/games/switch/t/trivial-pursuit-live-switch/description-image" class="img-fluid" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" onclick="window.location.href = 'index.html';">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Trivial_Pursuit">What is Trivial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.pogo.com/games/trivial-pursuit-online">Trivial website</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h5>Which country is famous for inventing the sport of soccer (football)?</h5>
+                <button class="incorrect">United States</button>
+                <button class="incorrect">Brazil</button>
+                <button class="correct">England</button>
+                <button class="incorrect">Germany</button>
+                <p id="question1"></p>
+            </div>
+
+            <div class="section">
+                <hr>
+                <h5>In basketball, how many points is a three-point shot worth?</h5>
+                <button class="incorrect">1 point</button>
+                <button class="incorrect">2 points</button>
+                <button class="correct">3 points</button>
+                <button class="incorrect">4 points</button>
+                <p id="question1"></p>
+            </div>
+
+            <div class="section">
+              <hr>
+              <h5>In the sport of cricket, what is the highest possible individual score a batsman can achieve in a single inning?</h5>
+              <button class="incorrect">400 runs</button>
+              <button class="correct">300 runs</button>
+              <button class="incorrect">200 runs</button>
+              <button class="incorrect">100 runs</button>
+              <p id="question1"></p>
+          </div>
+
+          <div class="section">
+            <hr>
+            <h5>What is the distance of a marathon race in kilometers?</h5>
+            <button class="correct">42.2 km</button>
+            <button class="incorrect">21.1 km</button>
+            <button class="incorrect">47.1 km</button>
+            <button class="incorrect">26.2 km</button>
+            <p id="question1"></p>
+        </div>
+
+        <div class="section">
+          <hr>
+          <h5>Which Olympic sport involves competitors attempting to hit a target using a bow and arrow?</h5>
+          <button class="incorrect">Javelin throw</button>
+          <button class="incorrect">Shot put</button>
+          <button class="incorrect">Fencing</button>
+          <button class="correct">Archery</button>
+          <p id="question1"></p>
+      </div>
+
+      <div class="section">
+        <h2>Part 2: Free Response</h2>
+        <hr>
+        <h5>Which athlete holds the record for the most Olympic gold medals in swimming?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Name" type="text">
+        <button id="submit">Submit</button>
+        <p id="question6"></p>
+      </div>
+
+      <div class="section">
+        <hr>
+        <h5>In which sport is the "Super Bowl" the championship game?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Sport" type="text">
+        <button id="submit">Submit</button>
+        <p id="question7"></p>
+      </div>
+
+      <div class="section">
+        <hr>
+        <h5>Which golf tournament is famous for its iconic green jacket awarded to the winner?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Tournament" type="text">
+        <button id="submit">Submit</button>
+        <p id="question8"></p>
+      </div>
+
+      <div class="section">
+        <hr>
+        <h5>Which country hosted the 2016 Summer Olympics?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Country" type="text">
+        <button id="submit">Submit</button>
+        <p id="question9"></p>
+      </div>
+
+      <div class="section">
+        <hr>
+        <h5>Who is often referred to as the "GOAT" in basketball?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Name" type="text">
+        <button id="submit">Submit</button>
+        <p id="question10"></p>
+      </div>
+
+    </body>
+</html>
