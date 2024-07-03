@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia Night</title>
+
+        <script src="answers.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_400/ncom/en_US/games/switch/t/trivial-pursuit-live-switch/description-image" class="img-fluid" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" onclick="window.location.href = 'index.html';">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Trivial_Pursuit">What is Trivial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.pogo.com/games/trivial-pursuit-online">Trivial website</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h5>Which ancient civilization is known for building the Great Pyramids of Giza?</h5>
+                <button class="incorrect">Roman Empire</button>
+                <button class="incorrect">Greek Empire</button>
+                <button class="incorrect">Ancient China</button>
+                <button class="correct">Ancient Egypt</button>
+                <p id="question1"></p>
+            </div>
+
+            <div class="section">
+                <hr>
+                <h5>The Renaissance was a cultural movement that originated in:</h5>
+                <button class="incorrect">17th-century France</button>
+                <button class="incorrect">Ancient Greece</button>
+                <button class="correct">14th-century Italy</button>
+                <button class="incorrect">16th-century England</button>
+                <p id="question1"></p>
+            </div>
+
+            <div class="section">
+              <hr>
+              <h5>The Industrial Revolution began in which century?</h5>
+              <button class="incorrect">15th century</button>
+              <button class="incorrect">16th century</button>
+              <button class="incorrect">17th century</button>
+              <button class="correct">18th century</button>
+              <p id="question1"></p>
+          </div>
+
+          <div class="section">
+            <hr>
+            <h5>The Magna Carta, signed in 1215, is a historical document that:</h5>
+            <button class="incorrect">Outlined the principles of communism</button>
+            <button class="incorrect">Established the United Nations</button>
+            <button class="correct">Limited the power of the English monarchy</button>
+            <button class="incorrect">Formed the Roman Republic</button>
+            <p id="question1"></p>
+        </div>
+
+        <div class="section">
+          <hr>
+          <h5>The American Civil War was primarily fought over:</h5>
+          <button class="incorrect">Religious differences</button>
+          <button class="incorrect">Economic sanctions</button>
+          <button class="correct">States' rights and slavery</button>
+          <button class="incorrect">Territorial expansion</button>
+          <p id="question1"></p>
+      </div>
+
+      <div class="section">
+        <h2>Part 2: Free Response</h2>
+        <hr>
+        <h5>Who painted the ceiling of the Sistine Chapel?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Name" type="text">
+        <button id="submit">Submit</button>
+        <p id="question16"></p>
+      </div>
+
+      <div class="section">
+        <hr>
+        <h5>Which ancient civilization built the city of Machu Picchu?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Name" type="text">
+        <button id="submit">Submit</button>
+        <p id="question17"></p>
+      </div>
+
+      <div class="section">
+        <hr>
+        <h5>What political ideology was associated with Karl Marx?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Name" type="text">
+        <button id="submit">Submit</button>
+        <p id="question18"></p>
+      </div>
+
+      <div class="section">
+        <hr>
+        <h5>Which war was fought from 1914 to 1918 involving many nations and is often referred to as the "Great War"? (do NOT abreviate)</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Name" type="text">
+        <button id="submit">Submit</button>
+        <p id="questio19"></p>
+      </div>
+
+      <div class="section">
+        <hr>
+        <h5>Which ancient wonder was a colossal statue of the Greek god Helios?</h5>
+        <input autocomplete="off" autofocus id="country" placeholder="Name" type="text">
+        <button id="submit">Submit</button>
+        <p id="question20"></p>
+      </div>
+
+    </body>
+</html>
