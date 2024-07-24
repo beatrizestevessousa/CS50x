@@ -1,5 +1,6 @@
 # CS50x Introduction to Computer Science
-![CS50x](https://github.com/beatrizestevessousa/CS50x/assets/121554636/f676ba22-cd2c-4c41-8e46-728656323d99)
+![CS50P](https://github.com/user-attachments/assets/6cb96c88-1448-45ec-ac2e-0113a2234e95)
+
 
 These are my solutions for CS50x Introduction to Computer Science 2023.
 
