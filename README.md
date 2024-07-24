@@ -1,8 +1,8 @@
-# CS50x Introduction to Computer Science
+# CS50P
 ![CS50P](https://github.com/user-attachments/assets/6cb96c88-1448-45ec-ac2e-0113a2234e95)
 
 
-These are my solutions for CS50x Introduction to Computer Science 2023.
+These are my solutions for CS50 Introduction to Programming with Python 2022.
 
 # ⚠️ Disclaimer:
 ❗ **The following codes are for educational purposes only and not intended to be used/submitted as your solutions.**
